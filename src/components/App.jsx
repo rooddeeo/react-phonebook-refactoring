@@ -45,7 +45,6 @@ const App = () => {
   const visibleContacts = contacts.filter(contact =>
     contact.name.toLowerCase().includes(lowerCase)
   );
-  console.log(visibleContacts);
 
   return (
     <>
